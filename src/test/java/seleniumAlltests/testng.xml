@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" >
+
+ <test name="guru99">
+ <Listeners>
+  <Listeners class-name="seleniumAlltests/ItestListenetTest"/>
+ </Listeners>
+ <classes>
+
+ <class name="seleniumAlltests.Guru99Test" />
+
+ </classes>
+
+ </test>
+</suite>
